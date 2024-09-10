@@ -1,8 +1,8 @@
 from PIL import Image, ImageDraw, ImageFont
 import math
 
+# full chars use, include or add characters as you will
 chars = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. "[::-1]
-#chars = "#Wo- "[::-1]
 
 charArray = list(chars)
 charLength = len(charArray)
@@ -19,7 +19,7 @@ def getChar(inputInt):
 
 text_file = open("Output.txt", "w")
 
-im = Image.open(r"C:\Users\rodri\OneDrive\Área de Trabalho\ASCIIArtGen\1711660693549.jpg")
+im = Image.open(r"//////")
 
 fnt = ImageFont.truetype('C:\\Windows\\Fonts\\lucon.ttf', 15)
 
@@ -49,8 +49,8 @@ for i in range(height):
     text_file.write('\n')
 
 
-im.save(r"C:\Users\rodri\OneDrive\Área de Trabalho\ASCIIArtGen\output.png")
-outputImage.save(r"C:\Users\rodri\OneDrive\Área de Trabalho\ASCIIArtGen\Coloroutput.png")
+im.save(r"///")
+outputImage.save(r"////")
 
 
 
