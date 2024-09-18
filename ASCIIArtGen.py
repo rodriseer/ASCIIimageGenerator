@@ -8,7 +8,8 @@ charArray = list(chars)
 charLength = len(charArray)
 interval =charLength/256
 
-scaleFactor = 0.09
+# lower values in scaleFactor return a less ASCII image, higher values return more ASCII characters to the image
+scaleFactor = 0.02
 
 oneCharWidth = 10
 oneCharHeight = 18
