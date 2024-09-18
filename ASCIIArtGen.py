@@ -52,13 +52,3 @@ for i in range(height):
 
 im.save(r"///")
 outputImage.save(r"////")
-
-
-
-
-
-
-
-
-
-
