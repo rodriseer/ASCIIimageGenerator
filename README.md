@@ -7,7 +7,7 @@ As a final output, it generates the ASCII art as a text file and also generates 
 - Converts images into a text-based ASCII representation.
 - Produces an image where each pixel is replaced with a corresponding ASCII character.
 - Supports customization of ASCII characters for different visual styles.
-- 
+  
 # Usage
 Install dependencies: Ensure you have the Python Imaging Library (PIL) installed. You can install it using the following command:
 pip install pillow
